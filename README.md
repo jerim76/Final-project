@@ -155,35 +155,6 @@ response = requests.post(
 
 print(response.json())
 ```
-
-## Technical Roadmap
-
-### Q3 2024
-| Milestone | Status | Target Completion |
-|-----------|--------|-------------------|
-| Multi-crop disease detection | Development | August 2024 |
-| Mobile application MVP | Planning | September 2024 |
-| Heroku Redis integration | Research | October 2024 |
-
-### Q4 2024
-| Feature | Technical Implementation |
-|---------|--------------------------|
-| IoT sensor integration | MQTT protocol implementation |
-| Satellite imagery analysis | Geospatial API integration |
-| Predictive yield modeling | Time-series forecasting |
-
-```mermaid
-gantt
-    title Development Timeline
-    dateFormat  YYYY-MM-DD
-    section Core Platform
-    Disease Model Expansion       :active,  des1, 2024-07-01, 2024-09-30
-    API Standardization           :         des2, 2024-08-15, 2024-11-30
-    section Infrastructure
-    Auto-scaling Configuration   :         des3, 2024-09-01, 2024-12-15
-    Multi-region Deployment      :         des4, 2024-11-01, 2025-01-31
-```
-
 ## Contribution Framework
 
 ### Development Priorities
